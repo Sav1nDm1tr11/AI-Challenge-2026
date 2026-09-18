@@ -1,0 +1,42 @@
+{
+  "label": "patch_only336_three_seeds",
+  "runs": [
+    "outputs/research_lab/runs/patch_only336_s42_b42583d69e36",
+    "outputs/research_lab/runs/patch_only336_s17_51eb08e7bbef",
+    "outputs/research_lab/runs/patch_only336_s123_18ef79a6d730"
+  ],
+  "checkpoint_sha256": [
+    "91548533c239a6e841d6544941a00df4b7a32dc3965b7e61e747dc41738aa223",
+    "ab7cc1a58326071abb1dccc60dee0721a900b25af709c939fe2c9ef3a6d3bdc7",
+    "5c64891c3f63ea442ecb3d2d902b1715da470ac3288123f1da0c71ddb415f948"
+  ],
+  "source_sha256": "d16eff8432d7b4c7d22134aa13948d57334948b09ab42106929c54766d41b6ff",
+  "thresholds": [
+    0.39,
+    0.06812920690579612,
+    0.12,
+    0.46,
+    0.54,
+    0.18,
+    0.33,
+    0.09,
+    0.18,
+    0.31
+  ],
+  "defect_columns": [
+    "abstract",
+    "artifacts",
+    "intersection",
+    "lowpoly",
+    "noisy",
+    "open",
+    "partial",
+    "scale",
+    "set",
+    "simple"
+  ],
+  "quality_rule": "no_predicted_defects",
+  "blend": "equal_mean_probabilities",
+  "test_ids_sha256": "7c30345cb8a23882bf1261fb8ae863d4ae543c78f860e37464672e537fcaadea",
+  "csv_sha256": "6a2628bf66fb9ce60727e1ca4ed40b9962e227db13b2d5d706c26dca8e18906f"
+}

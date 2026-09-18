@@ -1,0 +1,58 @@
+{
+  "baseline": {
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "hidden_dim": 256,
+    "dropout": 0.2,
+    "epochs": 5,
+    "seed": 42,
+    "batch_size": 16
+  },
+  "geometry": {
+    "seed": 42,
+    "max_epochs": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "batch_size": 4,
+    "num_points": 8192,
+    "subset_seed": 42,
+    "geometry_cache_hash": "03f72bbb541dfbe76cebfe92d7589f700d55e8925528ebc7c6a38ed8b04dde17",
+    "thresholds": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "selection_metric": "weighted_ap",
+    "epochs": 18
+  },
+  "geometry_model": {
+    "num_defects": 10,
+    "centers": [
+      512,
+      128
+    ],
+    "neighbors": [
+      32,
+      32
+    ],
+    "chunk_size": 64,
+    "dropout": 0.2
+  },
+  "sampling": {
+    "sampler_version": "surface_area_v1",
+    "num_points": 32768,
+    "seed": 42,
+    "face_chunk_size": 100000,
+    "dtype": "float32",
+    "normalization": "referenced_vertices_bbox_max_extent",
+    "normals": "face_normals_without_smoothing",
+    "numpy_version": "2.5.3"
+  }
+}

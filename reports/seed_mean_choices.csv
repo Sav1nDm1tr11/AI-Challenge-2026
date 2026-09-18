@@ -1,0 +1,4 @@
+name,epoch,weighted_ap
+patch_only336,6,0.7322044878681987
+patch_only336_consistent,6,0.7316181738013445
+global224,12,0.6952761312262914

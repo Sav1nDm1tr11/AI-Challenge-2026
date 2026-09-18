@@ -1,0 +1,13 @@
+{
+  "files": {
+    "geometry.pt": "c59b23f8d528913aa0d0f0b44b31f3d29bf19d070000962b7254bd15ca8bfd85",
+    "head_seed42.pt": "021ebe046c0798796d248ebafa43d97002fb678a844b88fd31affb26d4d1213d",
+    "head_seed123.pt": "0c8b3d63356fbd36376a4ae1540d93a84ddd2d57b49d606b42715a0a5cf12d04",
+    "head_seed17.pt": "7606bfc53907ddf3a3864bd9123053540c8ef44e91bec1ce5153a5ae3b9e13dc",
+    "baseline_predictions.npz": "bda4324b1c9698f92da0ff58cc8008ebb40d9d0e351fb6680e7515ec86370439",
+    "predictions.npz": "3c68e973eddb5cfa4332202f0c0b2839d64086a5177b8d002a9603e7d15c7cad",
+    "baseline.pt": "2118640e7319634ad33187a3f5b34da2edb5bc583e78484ea14a0124e46b4676",
+    "backbone.pt": "46529c6518cdc4110f909df6da5154fca5bfa3b45a62447c96b7a2d733748405",
+    "geometry_predictions.npz": "5c27eb8577880c5ab3fa041cfb6c9c6705c89f40eb576bfd0257c47da655c8e0"
+  }
+}

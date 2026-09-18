@@ -1,0 +1,19 @@
+{
+  "notebook_executed": true,
+  "training_during_notebook_run": false,
+  "test_objects": 669,
+  "binary_mismatches": 0,
+  "byte_identical": true,
+  "submission_sha256": "6a2628bf66fb9ce60727e1ca4ed40b9962e227db13b2d5d706c26dca8e18906f",
+  "device": "mps",
+  "unit_tests_passed": 3,
+  "colab_t4_executed": false,
+  "notebook_cells": 40,
+  "executed_code_cells": 22,
+  "training_checks": [
+    "baseline: train/evaluate/save",
+    "geometry: train/evaluate/save",
+    "patch: train/evaluate/save"
+  ],
+  "full_retraining": false
+}
